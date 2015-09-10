@@ -1,12 +1,26 @@
 public class AreaRectangle {
+    //public static void area(){
+      //  float width= 5;
+        //float height = 5;
+        //float area = width * height;
+        //System.out.println("Area= "+area);
+   // }
+    public static void area(float l, float w){
+        float area = l*w;
+        System.out.println("Area= " + area);
+        
+    }
 public static void main(String[] args) {
-    int width;
-    int height;
-    int area;
-    width=20;
-    height=5;
-    area=width*height;
-    System.out.println("The area of the rectangle is " + area);
-}
+    float width= 5;
+    float height = 5;
+    //float area = width * height;
+    //System.out.println("Area= "+area);
+    
+    area(width, height);
+    
+    
+    
+    
+    }
 }
     
