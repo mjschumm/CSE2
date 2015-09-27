@@ -23,6 +23,9 @@ public class Check {
         double costPerPerson;
         int dollars, dimes, pennies;
         
+        int fact;
+        fact = 7%3;
+        
         totalCost=checkCost*(1+tipPercent);
         costPerPerson=totalCost/numPeople;
         
@@ -37,6 +40,7 @@ public class Check {
         //for pennies 78.68=>(int)*100=7868.  The remainder after it is divided by 10 is 8. 
         //This represents the 100 decimal place
         System.out.println("Each person in the group owes $" + dollars + "." + dimes + pennies);
+        System.out.println("The answer is " +fact);
 
         
 }
