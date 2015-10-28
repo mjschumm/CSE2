@@ -1,5 +1,6 @@
 //Mark Schumm
 //Hw 08
+//User ID: 869819462
 import java.util.Scanner;
 //The scanner is used since the program need to keep asking the user for a valid
 //shape, if an invalid one is entered
